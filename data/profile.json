@@ -1,0 +1,19 @@
+{
+  "profile": {
+    "name": "Elena Torres",
+    "title": "Product Designer",
+    "bio": "Creating meaningful digital experiences through minimalist design and thoughtful interaction."
+  },
+  "contact": {
+    "email": "elena.torres@email.com",
+    "phone": "+34 612 345 678",
+    "githubUsername": "elenatorres",
+    "linkedin": "https://linkedin.com/in/elenatorres",
+    "dribbble": "https://dribbble.com/elenatorres"
+  },
+  "siteConfig": {
+    "domain": "",
+    "title": "Elena Torres - Portfolio",
+    "description": "Product Designer Portfolio"
+  }
+}
