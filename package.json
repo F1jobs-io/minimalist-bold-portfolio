@@ -1,0 +1,12 @@
+{
+  "name": "minimalist-bold-portfolio",
+  "version": "1.0.0",
+  "description": "A minimalist portfolio template with bold typography and clean design",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000"
+  },
+  "keywords": ["portfolio", "template", "minimalist", "typography", "responsive"],
+  "author": "F1jobs.io",
+  "license": "MIT"
+}

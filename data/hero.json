@@ -1,0 +1,18 @@
+{
+  "label": "Product Designer",
+  "title": "Elena Torres",
+  "subtitle": "Creating meaningful digital experiences through minimalist design, thoughtful interaction, and purposeful simplicity.",
+  "image": "https://ui-avatars.com/api/?name=Elena+Torres&size=600&background=0066FF&color=fff&bold=true&font-size=0.35",
+  "cta": [
+    {
+      "text": "View Work",
+      "href": "#projects",
+      "type": "primary"
+    },
+    {
+      "text": "Get in Touch",
+      "href": "#contact",
+      "type": "secondary"
+    }
+  ]
+}

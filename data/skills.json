@@ -1,0 +1,49 @@
+{
+  "title": "Skills & Expertise",
+  "categories": [
+    {
+      "name": "Design",
+      "skills": [
+        "User Interface Design",
+        "User Experience Design",
+        "Interaction Design",
+        "Design Systems",
+        "Wireframing & Prototyping",
+        "Visual Design"
+      ]
+    },
+    {
+      "name": "Tools",
+      "skills": [
+        "Figma",
+        "Adobe Creative Suite",
+        "Sketch",
+        "Principle",
+        "Framer",
+        "InVision"
+      ]
+    },
+    {
+      "name": "Development",
+      "skills": [
+        "HTML & CSS",
+        "JavaScript Basics",
+        "React Fundamentals",
+        "Responsive Design",
+        "CSS Animations",
+        "Git & Version Control"
+      ]
+    },
+    {
+      "name": "Process",
+      "skills": [
+        "Design Thinking",
+        "User Research",
+        "Usability Testing",
+        "A/B Testing",
+        "Agile Methodology",
+        "Cross-functional Collaboration"
+      ]
+    }
+  ]
+}

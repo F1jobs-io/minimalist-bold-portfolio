@@ -1,0 +1,20 @@
+{
+  "title": "Let's Connect",
+  "description": "I'm always interested in hearing about new projects and opportunities. Whether you have a question or just want to say hi, feel free to reach out.",
+  "methods": [
+    {
+      "label": "Email",
+      "value": "elena.torres@email.com",
+      "link": "mailto:elena.torres@email.com"
+    },
+    {
+      "label": "Phone",
+      "value": "+34 612 345 678",
+      "link": "tel:+34612345678"
+    },
+    {
+      "label": "Location",
+      "value": "Barcelona, Spain"
+    }
+  ]
+}

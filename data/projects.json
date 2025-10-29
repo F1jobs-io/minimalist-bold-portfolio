@@ -1,0 +1,47 @@
+{
+  "title": "Selected Work",
+  "items": [
+    {
+      "title": "Forma Banking App",
+      "description": "A minimalist mobile banking experience focused on clarity and ease of use. Redesigned the entire user flow resulting in 35% faster transaction completion.",
+      "image": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=400&fit=crop",
+      "tags": ["Mobile App", "Fintech", "UI/UX"],
+      "link": "#"
+    },
+    {
+      "title": "Workspace Dashboard",
+      "description": "B2B SaaS dashboard for project management. Created a clean, data-driven interface that improved user task completion by 40%.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+      "tags": ["Web App", "SaaS", "Dashboard"],
+      "link": "#"
+    },
+    {
+      "title": "Minimal E-commerce",
+      "description": "High-end fashion e-commerce platform with a focus on product photography and minimal interface. Increased conversion rate by 28%.",
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop",
+      "tags": ["E-commerce", "Web Design", "UI/UX"],
+      "link": "#"
+    },
+    {
+      "title": "Health Tracking App",
+      "description": "iOS app for tracking wellness metrics with an emphasis on simplicity and daily habits. Featured on the App Store.",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&h=400&fit=crop",
+      "tags": ["Mobile App", "Health", "iOS"],
+      "link": "#"
+    },
+    {
+      "title": "Design System",
+      "description": "Comprehensive design system for a growing startup, including components, patterns, and guidelines used across 5 products.",
+      "image": "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?w=600&h=400&fit=crop",
+      "tags": ["Design System", "Components", "Documentation"],
+      "link": "#"
+    },
+    {
+      "title": "Portfolio Platform",
+      "description": "Platform for creatives to showcase their work with customizable templates and seamless content management.",
+      "image": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop",
+      "tags": ["Web App", "Portfolio", "CMS"],
+      "link": "#"
+    }
+  ]
+}

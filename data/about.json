@@ -1,0 +1,21 @@
+{
+  "title": "About Me",
+  "description": [
+    "I'm a product designer based in Barcelona, specializing in creating clean, functional digital experiences that prioritize user needs and business goals. My approach is rooted in minimalism—removing the unnecessary to highlight what truly matters.",
+    "With over 8 years of experience, I've helped startups and established companies craft products that are not only visually striking but also intuitive and accessible. I believe great design is invisible, seamlessly guiding users toward their goals."
+  ],
+  "stats": [
+    {
+      "number": "8+",
+      "label": "Years Experience"
+    },
+    {
+      "number": "50+",
+      "label": "Projects Delivered"
+    },
+    {
+      "number": "15+",
+      "label": "Happy Clients"
+    }
+  ]
+}
