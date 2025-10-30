@@ -1,0 +1,45 @@
+{
+  "_instructions": "Add your work experience here. Copy the experience object for each job.",
+  "sectionTitle": "Professional Experience",
+  "experiences": [
+    {
+      "title": "Senior Product Designer",
+      "company": "Minimal Studios",
+      "period": "2021 — Present",
+      "location": "Remote",
+      "description": "Leading design for B2B SaaS products and managing a team of designers.",
+      "responsibilities": [
+        "Leading design for B2B SaaS products",
+        "Managing a team of 3 designers",
+        "Establishing design systems that scale",
+        "Increased user engagement by 40% through thoughtful UX improvements"
+      ]
+    },
+    {
+      "title": "Product Designer",
+      "company": "Nordic Design Co.",
+      "period": "2018 — 2021",
+      "location": "Copenhagen, Denmark",
+      "description": "Designed end-to-end experiences for mobile and web applications.",
+      "responsibilities": [
+        "Designed end-to-end experiences for mobile and web applications",
+        "Collaborated with engineering and product teams",
+        "Improved conversion rates by 25%",
+        "Shipped features using agile methodology"
+      ]
+    },
+    {
+      "title": "UI/UX Designer",
+      "company": "Pixel Perfect Agency",
+      "period": "2016 — 2018",
+      "location": "Stockholm, Sweden",
+      "description": "Created user interfaces for various client projects across multiple industries.",
+      "responsibilities": [
+        "Created user interfaces for fintech, e-commerce, and lifestyle brands",
+        "Conducted user research and usability testing",
+        "Informed design decisions with data-driven insights",
+        "Delivered high-quality designs on tight deadlines"
+      ]
+    }
+  ]
+}

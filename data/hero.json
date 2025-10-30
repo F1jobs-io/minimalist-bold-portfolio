@@ -1,18 +1,52 @@
 {
-  "label": "Product Designer",
-  "title": "Elena Torres",
-  "subtitle": "Creating meaningful digital experiences through minimalist design, thoughtful interaction, and purposeful simplicity.",
-  "image": "https://ui-avatars.com/api/?name=Elena+Torres&size=600&background=0066FF&color=fff&bold=true&font-size=0.35",
-  "cta": [
+  "_instructions": "Hero section content - the first thing visitors see on your portfolio.",
+  "greeting": "Hi, I'm",
+  "name": "Elena Torres",
+  "title": "Product Designer",
+  "summary": "Creating meaningful digital experiences through minimalist design, thoughtful interaction, and purposeful simplicity. I believe in the power of clean design and intentional user experiences.",
+  "highlights": [
     {
-      "text": "View Work",
-      "href": "#projects",
-      "type": "primary"
+      "icon": "fas fa-award",
+      "text": "40% User Engagement Increase"
     },
     {
-      "text": "Get in Touch",
-      "href": "#contact",
-      "type": "secondary"
+      "icon": "fas fa-users",
+      "text": "Leading Design Teams"
+    },
+    {
+      "icon": "fas fa-palette",
+      "text": "Minimalist Design Expert"
+    }
+  ],
+  "cta": {
+    "buttons": [
+      {
+        "text": "View Work",
+        "href": "#projects",
+        "type": "primary"
+      },
+      {
+        "text": "Get in Touch",
+        "href": "#contact",
+        "type": "secondary"
+      }
+    ]
+  },
+  "socialLinks": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://linkedin.com/in/elenatorres",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "platform": "Dribbble",
+      "url": "https://dribbble.com/elenatorres",
+      "icon": "fab fa-dribbble"
+    },
+    {
+      "platform": "Behance",
+      "url": "https://behance.net/elenatorres",
+      "icon": "fab fa-behance"
     }
   ]
 }

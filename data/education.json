@@ -1,0 +1,28 @@
+{
+  "_instructions": "Add your education and certifications here.",
+  "sectionTitle": "Education & Certifications",
+  "education": [
+    {
+      "degree": "Bachelor of Arts in Interaction Design",
+      "institution": "Konstfack University",
+      "period": "2012 — 2016",
+      "location": "Stockholm, Sweden",
+      "description": "Focused on user-centered design, interface design, and design thinking methodologies.",
+      "honors": ["Graduated with Distinction", "Dean's List 2015-2016"]
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified UX Professional",
+      "issuer": "Nielsen Norman Group",
+      "date": "2020",
+      "description": "Advanced certification in user experience design"
+    },
+    {
+      "name": "Design Systems Specialist",
+      "issuer": "Interaction Design Foundation",
+      "date": "2021",
+      "description": "Specialized training in creating scalable design systems"
+    }
+  ]
+}
