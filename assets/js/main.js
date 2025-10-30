@@ -1,5 +1,6 @@
 // =============================================
 // MINIMALIST BOLD PORTFOLIO - MAIN JS
+// STANDARDIZED VERSION - Compatible with aesthetic-portfolio JSON structure
 // =============================================
 
 // Data loading functions
@@ -21,9 +22,10 @@ async function initSite() {
         loadNavigation(),
         loadHero(),
         loadAbout(),
-        loadWork(),
+        loadExperience(),
         loadSkills(),
         loadProjects(),
+        loadEducation(),
         loadContact(),
         loadFooter()
     ]);
@@ -56,31 +58,49 @@ async function loadNavigation() {
     }
 }
 
-// Load hero section
+// Load hero section (STANDARDIZED)
 async function loadHero() {
     const hero = await loadJSON('hero');
     if (hero) {
-        const label = document.getElementById('hero-label');
-        if (label) label.textContent = hero.label || '';
+        // Support both old and new structure
+        const greeting = hero.greeting || hero.label || '';
+        const name = hero.name || '';
+        const title = hero.title || '';
+        const summary = hero.summary || hero.subtitle || '';
 
-        const title = document.getElementById('hero-title');
-        if (title) title.textContent = hero.title || '';
+        const label = document.getElementById('hero-label');
+        if (label) label.textContent = greeting;
+
+        const titleEl = document.getElementById('hero-title');
+        if (titleEl) titleEl.textContent = name ? `${name}` : title;
 
         const subtitle = document.getElementById('hero-subtitle');
-        if (subtitle) subtitle.textContent = hero.subtitle || '';
+        if (subtitle) subtitle.textContent = title && name ? title : summary;
 
+        // Handle CTA - support both structures
         const cta = document.getElementById('hero-cta');
-        if (cta && hero.cta) {
-            cta.innerHTML = hero.cta.map(button => `
-                <a href="${button.href}" class="btn ${button.type === 'primary' ? 'btn-primary' : 'btn-secondary'}">
-                    ${button.text}
-                </a>
-            `).join('');
+        if (cta) {
+            let buttons = [];
+            if (hero.cta && hero.cta.buttons) {
+                // New structure: { buttons: [...] }
+                buttons = hero.cta.buttons;
+            } else if (Array.isArray(hero.cta)) {
+                // Old structure: [...]
+                buttons = hero.cta;
+            }
+
+            if (buttons.length > 0) {
+                cta.innerHTML = buttons.map(button => `
+                    <a href="${button.href}" class="btn ${button.type === 'primary' ? 'btn-primary' : 'btn-secondary'}">
+                        ${button.text}
+                    </a>
+                `).join('');
+            }
         }
 
         const image = document.getElementById('hero-image');
         if (image && hero.image) {
-            image.innerHTML = `<img src="${hero.image}" alt="${hero.title}">`;
+            image.innerHTML = `<img src="${hero.image}" alt="${name || title}">`;
         }
     }
 }
@@ -111,20 +131,22 @@ async function loadAbout() {
     }
 }
 
-// Load work experience
-async function loadWork() {
-    const work = await loadJSON('work');
-    if (work) {
-        const title = document.getElementById('work-title');
-        if (title) title.textContent = work.title || 'Experience';
+// Load work experience (STANDARDIZED)
+async function loadExperience() {
+    const experience = await loadJSON('experience');
+    if (experience) {
+        const sectionTitle = document.getElementById('work-title');
+        if (sectionTitle) sectionTitle.textContent = experience.sectionTitle || 'Experience';
 
         const list = document.getElementById('work-list');
-        if (list && work.items) {
-            list.innerHTML = work.items.map(item => `
+        const experiences = experience.experiences || experience.items || []; // Support both
+
+        if (list && experiences.length > 0) {
+            list.innerHTML = experiences.map(item => `
                 <div class="work-item">
                     <div class="work-period">${item.period || ''}</div>
                     <div class="work-details">
-                        <h3 class="work-title">${item.position || ''}</h3>
+                        <h3 class="work-title">${item.title || item.position || ''}</h3>
                         <div class="work-company">${item.company || ''}</div>
                         <p class="work-description">${item.description || ''}</p>
                     </div>
@@ -132,6 +154,14 @@ async function loadWork() {
             `).join('');
         }
     }
+}
+
+// Load education section (NEW - standardized)
+async function loadEducation() {
+    const education = await loadJSON('education');
+    // Minimalist template doesn't display education by default
+    // But it's available if needed for data generation
+    console.log('Education data loaded (not displayed in this template):', education);
 }
 
 // Load skills
